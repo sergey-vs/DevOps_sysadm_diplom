@@ -56,6 +56,7 @@ Course project on the profession "DevOps engineer from scratch"
 >
 >Создайте ВМ, установите туда Grafana. Настройте ее на взаимодейтсвие с ранее развернутым Prometheus. Настройте дешборды с отображением метрик, минимальный набор - Utilization, Saturation, Errors для CPU, RAM, диски, сеть, http_response_count_total, http_response_size_bytes. Добавьте необходимые [tresholds](https:/>
 >
+
 </details>
 
 ---
@@ -67,6 +68,7 @@ Course project on the profession "DevOps engineer from scratch"
 >
 >Создайте ВМ, разверните на ней Kibana, сконфигурируйте соединение с Elasticsearch.
 >
+
 </details>
 
 ---
@@ -80,6 +82,7 @@ Course project on the profession "DevOps engineer from scratch"
 >
 >Настройте ВМ с публичным адресом, в которой будет открыт только один порт - ssh. Настройте все security groups на разрешение входящего ssh из этой security group. Эта вм будет реализовывать концепцию bastion host. Потом можно будет подключаться по ssh ко всем хостам через этот хост.
 >
+
 </details>
 
 ---
@@ -89,6 +92,7 @@ Course project on the profession "DevOps engineer from scratch"
 >
 >Создайте snapshot дисков всех ВМ. Ограничьте время жизни snaphot в неделю. Сами snaphot настройте на ежедневное копирование.
 >
+
 </details>
 
 ---
@@ -103,6 +107,7 @@ Course project on the profession "DevOps engineer from scratch"
 >- В Elasticsearch добавьте мониторинг логов самого себя, Kibana, Prometheus, Grafana через filebeat. Можно использовать logstash тоже.
 >- Воспользуйтесь Yandex Certificate Manager, выпустите сертификат для сайта, если есть доменное имя. Перенастройте работу балансера на HTTPS, при этом нацелен он будет на HTTP web серверов.
 >
+
 </details>
 
 ---
@@ -116,6 +121,7 @@ Course project on the profession "DevOps engineer from scratch"
 >
 >**Важно**: Еще можно задавать вопросы по поводу того, как реализовать ту или иную функциональность. И руководитель же определяет, правильно вы её реализовали или нет. Любые вопросы, которые не освещены в данном документе, стоит уточнять у руководителя. Если его требования/указания расходятся с указанными в данном >
 >
+
 </details>
 
 ---
@@ -130,6 +136,7 @@ Course project on the profession "DevOps engineer from scratch"
 >- Работа оформлена так, чтобы были понятны ваши решения и компромиссы.
 >- Если использованы дополнительные репозитории, то доступ к ним открыт (публичный репозиторий)
 >
+
 </details>
 
 ---
@@ -149,4 +156,5 @@ Course project on the profession "DevOps engineer from scratch"
 >2. Откладывание выполнения курсового проекта на последний момент.
 >3. Ожидание моментального ответа на свой вопрос. Дипломные руководители - работающие инженеры, которые занимаются, кроме преподавания, своими проектами. Их время ограничено, поэтому постарайтесь задавать правильные вопросы, чтобы получать быстрые ответы :)
 >
+
 </details>
