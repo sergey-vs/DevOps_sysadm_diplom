@@ -116,9 +116,9 @@ Course project on the profession "DevOps engineer from scratch"
 </details>
 
 ---
-## Выполнение работы
-
 <details><summary><b>Выполнение работы</b></summary>
+
+## Выполнение работы
 
 >
 >На этом этапе вы непосредственно выполняете работу. При этом вы можете консультироваться с руководителем по поводу вопросов, требующих уточнения.
@@ -131,9 +131,9 @@ Course project on the profession "DevOps engineer from scratch"
 </details>
 
 ---
-## Критерии сдачи
-
 <details><summary><b>Критерии сдачи</b></summary>
+
+## Критерии сдачи
 
 >
 >- Инфраструктура отвечает минимальным требованиям, описанным в [Задаче](#Задача).
