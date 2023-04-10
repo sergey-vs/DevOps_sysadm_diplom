@@ -28,7 +28,7 @@ Course project on the profession "DevOps engineer from scratch"
 ---
 ### Сайт
 
-<details><summary><bold>Задание</bold></summary>
+<details><summary><b>Задание</b></summary>
 
 >Создайте две ВМ в разных зонах, установите на них сервер nginx, если его там нет. ОС и содержимое ВМ должно быть идентичным, это будут наши web-сервера.
 >
