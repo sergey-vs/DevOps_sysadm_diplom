@@ -50,7 +50,7 @@ Course project on the profession "DevOps engineer from scratch"
 ---
 ### Мониторинг
 
-<details><summary>**Задание**</summary>
+<details><summary><b>Задание</b></summary>
 >
 >Создайте ВМ, разверните на ней Prometheus. На каждую ВМ из web серверов установите Node Exporter и [Nginx Log Exporter](https://github.com/martin-helmich/prometheus-nginxlog-exporter). Настройте Prometheus на сбор метрик с этих exporter.
 >
@@ -61,7 +61,7 @@ Course project on the profession "DevOps engineer from scratch"
 ---
 ### Логи
 
-<details><summary>**Задание**</summary>
+<details><summary><b>Задание</b></summary>
 >
 >Cоздайте ВМ, разверните на ней Elasticsearch. Установите filebeat в ВМ к web-серверам, настройте на отправку access.log, error.log nginx в Elasticsearch.
 >
@@ -72,7 +72,7 @@ Course project on the profession "DevOps engineer from scratch"
 ---
 ### Сеть
 
-<details><summary>**Задание**</summary>
+<details><summary><b>Задание</b></summary>
 >
 >Разверните один VPC. Сервера web, Prometheus, Elasticsearch поместите в приватные подсети. Сервера Grafana, Kibana, application load balancer определите в публичную подсеть.
 >
@@ -85,7 +85,7 @@ Course project on the profession "DevOps engineer from scratch"
 ---
 ### Резервное копирование
 
-<details><summary>**Задание**</summary>
+<details><summary><b>Задание</b></summary>
 >
 >Создайте snapshot дисков всех ВМ. Ограничьте время жизни snaphot в неделю. Сами snaphot настройте на ежедневное копирование.
 >
@@ -94,7 +94,7 @@ Course project on the profession "DevOps engineer from scratch"
 ---
 ### Дополнительно
 
-<details><summary>**Задание**</summary>
+<details><summary><b>Задание</b></summary>
 >
 >Не входит в минимальные требования.
 >- Для Prometheus можно реализовать альтернативный способ хранения данных - в базе данных PpostgreSQL. Используйте [Yandex Managed Service for PostgreSQL](https://cloud.yandex.com/en-ru/services/managed-postgresql). Разверните кластер из двух нод с автоматическим failover. Воспользуйтесь адаптером с https://github.>
@@ -108,7 +108,7 @@ Course project on the profession "DevOps engineer from scratch"
 ---
 ## Выполнение работы
 
-<details><summary>**Выполнение работы**</summary>
+<details><summary><b>Выполнение работы</b></summary>
 >
 >На этом этапе вы непосредственно выполняете работу. При этом вы можете консультироваться с руководителем по поводу вопросов, требующих уточнения.
 >
@@ -121,7 +121,7 @@ Course project on the profession "DevOps engineer from scratch"
 ---
 ## Критерии сдачи
 
-<details><summary>**Критерии сдачи**</summary>
+<details><summary><b>Критерии сдачи</b></summary>
 >
 >- Инфраструктура отвечает минимальным требованиям, описанным в [Задаче](#Задача).
 >- Предоставлен доступ ко всем ресурсам, у которых предполагается веб-страница - сайт, Kibana, Grafanа.
@@ -133,7 +133,7 @@ Course project on the profession "DevOps engineer from scratch"
 </details>
 
 ---
-<details><summary>**Как правильно задавать вопросы дипломному руководителю ?**</summary>
+<details><summary><b>Как правильно задавать вопросы дипломному руководителю ?</b></summary>
 
 ## Как правильно задавать вопросы дипломному руководителю?
 
