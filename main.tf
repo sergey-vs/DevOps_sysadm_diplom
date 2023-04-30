@@ -20,7 +20,7 @@ provider "yandex" {
 resource "yandex_compute_instance" "nginx-1" {
   name     = "vm-nginx-1"
   hostname = "nginx-1"
-  zone     = "ru-central1-b"
+  zone     = "ru-central1-a"
 
 
   resources {
@@ -54,7 +54,7 @@ resource "yandex_compute_instance" "nginx-1" {
 resource "yandex_compute_instance" "nginx-2" {
   name     = "vm-nginx-2"
   hostname = "nginx-2"
-  zone     = "ru-central1-a"
+  zone     = "ru-central1-b"
 
 
   resources {
