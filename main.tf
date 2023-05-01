@@ -42,7 +42,9 @@ resource "yandex_compute_instance" "nginx-1" {
     subnet_id  = yandex_vpc_subnet.subnet-nginx_1.id
     ip_address = "192.168.1.11"
     nat        = true
+#    nat_ip_address = yandex_vpc_address.nginx-1.external_ipv4_address.0.address
   }
+
   metadata = {
     user-data = "${file("./meta.txt")}"
   }
@@ -76,7 +78,9 @@ resource "yandex_compute_instance" "nginx-2" {
     subnet_id  = yandex_vpc_subnet.subnet-nginx_2.id
     ip_address = "192.168.2.22"
     nat        = true
+#    nat_ip_address = yandex_vpc_address.nginx-2.external_ipv4_address.0.address
   }
+
   metadata = {
     user-data = "${file("./meta.txt")}"
   }
