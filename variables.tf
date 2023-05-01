@@ -1,5 +1,5 @@
 variable "access_token" {
-  default = "y0_AgAAAAAFPRhrAATuwQAAAADSlqt_z19rhiHoRiCl-okOylsHI4E-q7A"  
+  default = ""  
 #  type = string 
 #  sensitive = true
 }
